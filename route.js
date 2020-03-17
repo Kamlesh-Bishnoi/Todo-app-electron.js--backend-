@@ -7,4 +7,5 @@ module.exports = function (app) {
     });
     // Import all the routes here
     app.use("/api",require("./todo"));
+    app.use("/api",require("./user"));
 }
